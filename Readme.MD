@@ -1,4 +1,4 @@
-# Teste Técnico – QA Tester 
+# Teste Técnico – QA Tester | 4blue
 
 Autor: Kaique Barreto Santos  
 Cargo pretendido: Analista de Testes / QA Jr  
@@ -71,9 +71,9 @@ Médio
 
 Alta
 
-![alt text](<1 - Loguin.png>)
+![Tela de login sem preenchimento](Loguin_06.03.png)
 
-![alt text](<2 - Msg de erro.PNG>)
+![Mensagem de erro apresentada pelo sistema](Msg_de_erro_06.03.PNG)
 
 ---
 
@@ -143,7 +143,9 @@ Alto
 
 Alta
 
-<video src="C:\Users\KAIQU\OneDrive\Área de Trabalho\TESTE QA\2026-03-06_19h47_15.mp4" width="400" controls></video>
+### Evidência em vídeo
+
+[Assistir vídeo do erro após login](BG3_Mensagem_de_erro_exibida_após_login_realizado_com_sucesso_06.03.2026.mp4)
 
 ---
 
@@ -309,3 +311,13 @@ A ausência de validação permite que dados inconsistentes sejam armazenados no
 - Melhorar mensagens de erro para tornar o feedback mais claro.
 - Corrigir problemas de layout na tela de cadastro.
 - Implementar validações tanto no **front-end** quanto no **back-end**.
+
+---
+
+# Considerações Finais
+
+Durante a análise foi possível identificar diversas falhas relacionadas principalmente à ausência de validação de dados e inconsistências no fluxo de autenticação.
+
+Grande parte dos problemas encontrados poderia ser evitada com a implementação de validações adequadas tanto no front-end quanto no back-end, além da definição clara das regras de negócio.
+
+A realização de testes exploratórios demonstrou ser eficaz para identificar rapidamente falhas críticas que impactam diretamente a integridade do sistema e a experiência do usuário.
